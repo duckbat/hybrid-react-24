@@ -5,6 +5,9 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <App /> {/* Template from App.tsx */}
+    <App /> {/* This will be rendered in a different root */}
+    <App /> {/* This will be rendered in a different root */}
   </React.StrictMode>,
-)
+);
+
